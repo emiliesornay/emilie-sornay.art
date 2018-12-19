@@ -1,0 +1,79 @@
+html {
+	//font-size: 14px;
+	//font-size: 16px;
+	height: 100%;
+	color: $color-primary;
+}
+
+body {
+	color: $color-primary;
+	display: block;
+	font-family: $font-primary-regular;
+	font-weight:400;
+	min-height: 100%;
+	text-rendering: optimizelegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+	background:$color-white;
+	margin:0;
+	padding:0;
+	line-height:1.8rem;
+	font-size:0.9rem;
+}
+
+a{
+	&:active, &:focus{
+		color: $color-primary;
+		outline:none;
+	}
+
+	@media ({$desktop-up}) {
+		&:hover{
+			color: $color-primary;
+		}
+	}
+
+}
+
+input,
+input[type='text'],
+input[type='password'],
+input[type='date'],
+input[type='datetime'],
+input[type='datetime-local'],
+input[type='month'],
+input[type='week'],
+input[type='email'],
+input[type='number'],
+input[type='search'],
+input[type='tel'],
+input[type='time'],
+input[type='url'],
+input[type='color'],
+input[type='checkbox'],
+input[type='radio'],
+select,
+textarea,
+button{
+	margin: 0 0 0;
+	box-shadow:none;
+	outline:none;
+	&:focus{
+		box-shadow:none;
+		outline:none;
+	}
+}
+
+h1,h2,h3,h4,h5{
+	font-weight:normal;
+	letter-spacing: 5px;
+	text-transform:uppercase;
+}
+
+
+.app{
+	&-container{
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+}
