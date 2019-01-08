@@ -7,7 +7,7 @@
         <nuxt-link to="/">Consulter les numéros</nuxt-link>
         <br /><br />
         <h2>Duo Rhéalia</h2>
-        <p>Depuis 2015, Émilie Sornay évolue aussi au sein du Duo Rhéalia comme danseuse et acrobate avec des numéros originaux.</p>
+        <p>Depuis 2013, Émilie Sornay évolue aussi au sein du Duo Rhéalia comme danseuse et acrobate avec des numéros originaux.</p>
         <a href="https://www.duo-rhéalia.com">Visiter Duo Rhéalia</a>
     </Division>
   </div>

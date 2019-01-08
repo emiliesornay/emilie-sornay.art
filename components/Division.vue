@@ -20,17 +20,22 @@ export default {
 .division{
     height: calc(100vh - 3.75rem );
     width:100%;
-    grid-template-columns: 50% 50%;
-    display:grid;
+
+    +for_breakpoint("tablet-up") {
+        grid-template-columns: 50% 50%;
+        display:grid;
+    }
 
     &--inverted{
-        .illustration{
-            grid-column: 2 / end;
-            grid-row: 1;
-        }
-        .content{
-            grid-column: 1/2;
-            grid-row: 1;
+        +for_breakpoint("tablet-up") {
+            .illustration{
+                grid-column: 2 / end;
+                grid-row: 1;
+            }
+            .content{
+                grid-column: 1/2;
+                grid-row: 1;
+            }
         }
     }
 
@@ -38,12 +43,17 @@ export default {
         background-color: #fd746c;  /* fallback for old browsers */
         background: -webkit-linear-gradient(to right, #ff9068, #fd746c);  /* Chrome 10-25, Safari 5.1-6 */
         background: linear-gradient(to right, #ff9068, #fd746c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        width:100vh;
     }
 
     .content{
-        justify-self: center;
-        align-self: center;
         padding:4rem 5rem;
+
+        +for_breakpoint("tablet-up") {
+            justify-self: center;
+            align-self: center;
+        }
     }
 }
 
