@@ -21,13 +21,13 @@ export default {
     height: calc(100vh - 3.75rem );
     width:100%;
 
-    +for_breakpoint("tablet-up") {
+    // +for_breakpoint("tablet-up") {
         grid-template-columns: 50% 50%;
         display:grid;
-    }
+    // }
 
     &--inverted{
-        +for_breakpoint("tablet-up") {
+        // +for_breakpoint("tablet-up") {
             .illustration{
                 grid-column: 2 / end;
                 grid-row: 1;
@@ -36,7 +36,7 @@ export default {
                 grid-column: 1/2;
                 grid-row: 1;
             }
-        }
+        // }
     }
 
     .illustration{
@@ -50,10 +50,11 @@ export default {
     .content{
         padding:4rem 5rem;
 
-        +for_breakpoint("tablet-up") {
+        // +for_breakpoint("tablet-up") {
             justify-self: center;
             align-self: center;
-        }
+        // }
+
     }
 }
 

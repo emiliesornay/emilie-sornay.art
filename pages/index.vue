@@ -8,37 +8,30 @@
     <Division illustration="" :isInverted="true">
         <h3>Corde</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio perspiciatis at, corporis voluptates accusantium eveniet voluptatibus voluptas cum dolorem qui autem commodi molestias ut, libero, sequi reiciendis nobis eos iusto?
+          Tout en gardant le coté aérien la corde vous fera découvrir un aspect contemporain.
         </p>
         <nuxt-link to="/numero/corde">Découvrir les numéros de corde</nuxt-link>
     </Division>
     <Division illustration="" :isInverted="false">
         <h3>Sangles</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio perspiciatis at, corporis voluptates accusantium eveniet voluptatibus voluptas cum dolorem qui autem commodi molestias ut, libero, sequi reiciendis nobis eos iusto?
+          Un agrés aérien physique 
         </p>
         <nuxt-link to="/numero/sangles">Découvrir les numéros de sangles</nuxt-link>
     </Division>
     <Division illustration="" :isInverted="true">
         <h3>Tissu</h3>
         <p>
-          Les numéros de tissu aérien vont vous faire prendre de la hauteur ! Les numéros peuvent s'adapter à votre évènement. Soirée privées ou à thème, anniversaire, mariage. Un moyen original d'accompagner une ambiance mémorable.
+          Ajoutez une touche originale, atypique et poétique à vos évènements avec le tissus aérien.
         </p>
         <nuxt-link to="/numero/tissu">Découvrir les numéros de tissu</nuxt-link>
     </Division>
     <Division illustration="" :isInverted="false">
-        <h3>Cerceau</h3>
+        <h3>Collaborations</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio perspiciatis at, corporis voluptates accusantium eveniet voluptatibus voluptas cum dolorem qui autem commodi molestias ut, libero, sequi reiciendis nobis eos iusto?
+          La collaboration permet d'explorer et de repousser les limites physiques et artistiques.
         </p>
-        <nuxt-link to="/numero/cerceau">Découvrir les numéros de cerceau</nuxt-link>
-    </Division>
-    <Division illustration="" :isInverted="true">
-        <h3>Danse &amp; portés acrobatiques</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio perspiciatis at, corporis voluptates accusantium eveniet voluptatibus voluptas cum dolorem qui autem commodi molestias ut, libero, sequi reiciendis nobis eos iusto?
-        </p>
-        <nuxt-link to="/numero/danse-et-portes-acrobatiques">Découvrir les numéros de danse &amp;  portés acrobatiques</nuxt-link>
+        <nuxt-link to="/numero/collaborations">Découvrir les numéros en collaborations</nuxt-link>
     </Division>
   </div>
 </template>

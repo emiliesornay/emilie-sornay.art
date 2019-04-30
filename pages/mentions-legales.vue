@@ -13,6 +13,23 @@
         <p><strong>ARTICLE 3&nbsp;: ACCÈS AU SITE</strong><br>
         Le site est accessible par tout endroit, 7j/7, 24h/24 sauf cas de force majeure, interruption programmée ou non et pouvant découlant d’une nécessité de maintenance.</p>
         <p>En cas de modification, interruption ou suspension des services le site&nbsp;www.emilie-sornay.art&nbsp;&nbsp;ne saurait être tenu responsable.</p>
+
+        <h2>Crédits photographies</h2>
+        <ul>
+            <li>Dennis de Nice</li>
+            <li>Fred Bertrand</li>
+            <li>Guillaume Roumestan</li>
+            <li>Marc Zerbone</li>
+            <li>Nicolas Gomez</li>
+            <li>Paloma Barret</li>
+            <li>Patrice Castelin</li>
+            <li>Pierre Dupuy</li>
+            <li>Priscillag Gissot</li>
+            <li>Sophie Protat</li>
+            <li>Stéphane Cauchie</li>
+            <li>Thierry Pomares</li>
+            <li>Thomas Monthesinos</li>
+        </ul>
     </div>
 </template>
 
