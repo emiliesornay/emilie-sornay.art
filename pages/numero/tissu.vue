@@ -4,6 +4,11 @@
             <h1>Tissu</h1>
             <p>Pour les puristes, laissez vos yeux prendre de la hauteur avec un spectacle de tissus aérien dans lequel se mêlent souplesse et force. Une touche poétique qui rendra votre événement atypique ! Les numéros peuvent être adaptés à l'ambiance de votre soirée.</p>
         </Division>
+
+        <div class="video">
+          <div class='embed-container'><iframe src='https://www.youtube.com/embed//8_WP2lGjQdw' frameborder='0' allowfullscreen></iframe></div>
+        </div>
+
         <galery-inline :items="gallery"></galery-inline>
     </div>
 </template>
@@ -51,3 +56,11 @@ export default {
   }
 }
 </script>
+
+<style lang="stylus" scoped>
+.video{
+  margin:2rem auto 3rem auto;
+  width:90%;
+}
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+</style>
