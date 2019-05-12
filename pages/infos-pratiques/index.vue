@@ -1,82 +1,35 @@
 <template>
     <section class="main">
-        <nav>
-            <ul>
-                <li>
-                    Matériel
-                    <ul>
-                        <li>Cordes</li>
-                        <li>Tissus &amp; structure</li>
-                        <li>Cerceau &amp; structure</li>
-                    </ul>
-                </li>
-                <li>
-                    Zones géographiques
-                    <ul>
-                        <li>PACA</li>
-                        <li>France</li>
-                        <li>Europe</li>
-                        <li>Monde</li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
         <div>
             <h1>Informations pratiques</h1>
             <h2>Matériel</h2>
-            
-            <h3>Cordes</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti beatae ea qui numquam nam enim, cupiditate dignissimos nulla omnis facilis ratione? Quasi soluta nemo rem dicta aut incidunt praesentium vero.</p>
-            
+            <h3>Corde</h3>
+            <p><a href="/documents/fiches_techniques/emilie-sornay-fiche-technique-corde.pdf" download target="_blank">Télécharger la fiche technique</a></p>
             <h3>Tissus &amp; structure</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti beatae ea qui numquam nam enim, cupiditate dignissimos nulla omnis facilis ratione? Quasi soluta nemo rem dicta aut incidunt praesentium vero.</p>
-            
-            <h3>Cerceau &amp; structure</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti beatae ea qui numquam nam enim, cupiditate dignissimos nulla omnis facilis ratione? Quasi soluta nemo rem dicta aut incidunt praesentium vero.</p>
-            <h2>Zones géographiques</h2>
-            
-            <h3>PACA</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti beatae ea qui numquam nam enim, cupiditate dignissimos nulla omnis facilis ratione? Quasi soluta nemo rem dicta aut incidunt praesentium vero.</p>
-            
-            <h3>France</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti beatae ea qui numquam nam enim, cupiditate dignissimos nulla omnis facilis ratione? Quasi soluta nemo rem dicta aut incidunt praesentium vero.</p>
-            
-            <h3>Europe</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti beatae ea qui numquam nam enim, cupiditate dignissimos nulla omnis facilis ratione? Quasi soluta nemo rem dicta aut incidunt praesentium vero.</p>
-            
-            <h3>Monde</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti beatae ea qui numquam nam enim, cupiditate dignissimos nulla omnis facilis ratione? Quasi soluta nemo rem dicta aut incidunt praesentium vero.</p>
+            <p><a href="/documents/fiches_techniques/emilie-sornay-fiche-technique-tissu-aerien.pdf" download target="_blank">Télécharger la fiche technique</a></p>
+            <h3>Sangles</h3>
+            <p><a href="/documents/fiches_techniques/emilie-sornay-fiche-technique-sangles.pdf" download target="_blank">Télécharger la fiche technique</a></p>
+            <h3>Structure</h3>
+            <p><a href="/documents/Certificat-CE-TRIPODE.pdf" download target="_blank">Télécharger le certificat CE</a></p>
         </div>
     </section>
 </template>
 
 <style lang="stylus" scoped>
 section.main{
-    display:grid;
-    grid-template-columns: 18rem auto;
-    padding-top:7rem;
+    padding:1rem 1rem 1rem 1rem;
     justify-content:center;
     max-width:1000px;
     margin:0 auto;
-}
 
-nav{
+     @media media_queries.tablet-up {
+         padding-top:8rem;
+        min-height:calc( 100vh - 13rem);
+     }
 
-    ul, li{
-        list-style:none;
-        margin:0;
-        padding:0;
-    }
-
-    ul > li{
-        font-weight:600;
-        margin-bottom:20px;
-        ul > li{
-            padding-left:10px;
-            font-weight:400;
-            margin-bottom:0;
-        }
-
+    a{
+        color:#fd6861;
     }
 }
+
 </style>

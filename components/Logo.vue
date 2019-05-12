@@ -8,11 +8,15 @@
 
 <style lang="stylus" scoped>
 .logo{
-  margin:0 0 0 2rem;
   width: 8rem;
   height: 7rem;
   background:#fff;
   text-align:center;
+  margin:0 auto;
+
+   @media media_queries.tablet-up {
+    margin:0 0 0 2rem;
+   }
 
   a{
     display:grid;

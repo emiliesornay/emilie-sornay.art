@@ -17,17 +17,21 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-.division{
-    height: calc(100vh - 3.75rem );
-    width:100%;
 
-    // +for_breakpoint("tablet-up") {
+.division{
+
+    @media media_queries.tablet-up {
+        height: calc(100vh - 3.75rem );
+        width:100%;
+    }
+
+    @media media_queries.tablet-up {
         grid-template-columns: 50% 50%;
         display:grid;
-    // }
+    }
 
     &--inverted{
-        // +for_breakpoint("tablet-up") {
+         @media media_queries.tablet-up {
             .illustration{
                 grid-column: 2 / end;
                 grid-row: 1;
@@ -36,7 +40,7 @@ export default {
                 grid-column: 1/2;
                 grid-row: 1;
             }
-        // }
+        }
     }
 
     .illustration{
@@ -47,16 +51,25 @@ export default {
         background-gradient: -webkit-linear-gradient(to right, #ff9068, #fd746c);  /* Chrome 10-25, Safari 5.1-6 */
         background-gradient: linear-gradient(to right, #ff9068, #fd746c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-        width:100vh;
+        width:100vw;
+        height:100vh;
+
+        @media media_queries.tablet-up {
+            width:auto;
+            height:auto;
+        }
     }
 
     .content{
-        padding:4rem 5rem;
+        padding:1rem 1rem;
+        @media media_queries.tablet-up {
+            padding:4rem 5rem;
+        }
 
-        // +for_breakpoint("tablet-up") {
+        @media media_queries.tablet-up {
             justify-self: center;
             align-self: center;
-        // }
+        }
 
     }
 }

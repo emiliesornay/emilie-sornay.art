@@ -26,7 +26,6 @@ desktop-range = desktop-breakpoint + 1, 9999999999999999;
 
 // Media Queries
 screen = "screen";
-
 landscape = "{screen} and (orientation: landscape)";
 portrait = "{screen} and (orientation: portrait)";
 
@@ -41,17 +40,19 @@ media_queries = {
 }
 
 for_breakpoint(breakpoints) {
-  conditions = ();
+  conditions = ()
 
   for breakpoint in breakpoints {
-      push(conditions, media_queries[breakpoint])
+    push(conditions, media_queries[breakpoint])
   }
 
-  conditions = join(", ", conditions);
+  conditions = join(", ", conditions)
 
-  width: conditions;
+  conditions = unquote(conditions)
 
-  @media conditions {
-      {block}
-  }
+  background: conditions;
+
+  // @media conditions {
+    // {block}
+  // }
 }

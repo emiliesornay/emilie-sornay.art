@@ -41,7 +41,8 @@ module.exports = {
   */
   modules: [
     // Doc: https://github.com/nuxt-community/axios-module#usage
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    '@nuxtjs/style-resources'
   ],
   /*
   ** Axios module configuration
@@ -60,5 +61,12 @@ module.exports = {
     extend(config, ctx) {
       
     }
-  }
+  },
+  styleResources: {
+    sass: [],
+    less: [],
+    stylus: [
+      '@/assets/stylus/main.styl'
+    ]
+   }
 }

@@ -25,11 +25,16 @@ export default {
 
 <style lang="stylus" scoped>
 .mainnav{
-    width:100%;
-    grid-template-columns: 50% 50%;
-    display:grid;
-    position:absolute;
-    top:0;
+
+
+     @media media_queries.tablet-up {
+      width:100%;
+      grid-template-columns: 50% 50%;
+      display:grid;
+      position:absolute;
+      top:0;
+
+    }
 }
 
 .footer{

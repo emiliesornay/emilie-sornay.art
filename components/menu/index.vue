@@ -11,10 +11,16 @@
 
 <style lang="stylus" scoped>
 .menu{
+    margin-bottom:3rem;
     ul, li{
-        display:inline-block;
         margin:0;
         padding:0;
+        text-align:center;
+
+        @media media_queries.tablet-up {
+            display:inline-block;
+            text-align:left;
+        }
     }
 
     a{
