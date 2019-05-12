@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <Division illustration="" :isInverted="false">
+    <Division illustration="photos/contact/emilie-sornay-contact.jpg" :isInverted="false">
         <h1>Contact</h1>
         <p>e-Mail<br /><a href="mailto:emilie@emilie-sornay.art">emilie@emilie-sornay.art</a></p>
         <p>Téléphone<br /><a href="tel:+33620755180-">+33 6 20 75 51 80</a></p>
