@@ -19,10 +19,11 @@ module.exports = {
       { hid: 'og:image:width', property: "og:image:width", content: "600" },
       { hid: 'og:image:height', property: "og:image:height", content: "458" },
       //Filled in index.vue : { property: "og:description", content: "Maison 239 m2 aux Mayons" },
+      { hid: 'og:type', property: "og:type", content: "profile" },
+      { hid: 'og:description', property: "og:description", content: "Émilie Sornay, Danseuse et Acrobate." },
       { hid: 'og:title', property: "og:title", content: "Émilie Sornay" },
       { hid: 'og:url', property: "og:url", content: "https://www.emilie-sornay.art" },
-      { hid: 'og:image', property: "og:image", content: "https://www.emilie-sornay.art/img/icons/og-image.jpg" },
-      { hid: 'google-site-verification', property: "google-site-verification", content: "" }
+      { hid: 'og:image', property: "og:image", content: "https://www.emilie-sornay.art/img/icons/og-image.jpg" }
     ],
     link: [
       { rel:"apple-touch-icon", sizes: "180x180", href: "/img/icons/apple-touch-icon.png" },
