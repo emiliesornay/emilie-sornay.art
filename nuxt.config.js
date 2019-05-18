@@ -18,7 +18,6 @@ module.exports = {
       { hid: 'theme-color', name: "theme-color", content: "#ffffff" },
       { hid: 'og:image:width', property: "og:image:width", content: "600" },
       { hid: 'og:image:height', property: "og:image:height", content: "458" },
-      //Filled in index.vue : { property: "og:description", content: "Maison 239 m2 aux Mayons" },
       { hid: 'og:type', property: "og:type", content: "profile" },
       { hid: 'og:description', property: "og:description", content: "Émilie Sornay, Danseuse et Acrobate." },
       { hid: 'og:title', property: "og:title", content: "Émilie Sornay" },
@@ -58,7 +57,10 @@ module.exports = {
   modules: [
     // Doc: https://github.com/nuxt-community/axios-module#usage
     '@nuxtjs/axios',
-    '@nuxtjs/style-resources'
+    '@nuxtjs/style-resources',
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-140423364-1'
+    }]
   ],
   /*
   ** Axios module configuration
@@ -82,7 +84,7 @@ module.exports = {
     sass: [],
     less: [],
     stylus: [
-      '@/assets/stylus/main.styl'
+      '@/assets/stylus/_responsive.styl'
     ]
    }
 }

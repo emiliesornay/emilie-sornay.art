@@ -1,10 +1,10 @@
 <template>
     <div class="menu">
         <ul>
-            <li><nuxt-link to="/">Numéros</nuxt-link></li>
-            <li><nuxt-link to="/contact">Contact</nuxt-link></li>
-            <li><nuxt-link to="/a-propos">À Propos</nuxt-link></li>
-            <li><nuxt-link to="/infos-pratiques">Infos pratiques</nuxt-link></li>
+            <li><nuxt-link to="/">numéros</nuxt-link></li>
+            <li><nuxt-link to="/contact">contact</nuxt-link></li>
+            <li><nuxt-link to="/a-propos">à propos</nuxt-link></li>
+            <li><nuxt-link to="/infos-pratiques">infos pratiques</nuxt-link></li>
         </ul>
     </div>
 </template>

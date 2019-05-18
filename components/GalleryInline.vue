@@ -21,6 +21,7 @@ export default {
         text-align:center;
 
         img{
+
             display:inline-block;
             max-width:800px;
             width:80%;

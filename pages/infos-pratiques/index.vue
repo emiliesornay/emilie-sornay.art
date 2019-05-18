@@ -11,9 +11,36 @@
             <p><a href="/documents/fiches_techniques/emilie-sornay-fiche-technique-sangles.pdf" download target="_blank">Télécharger la fiche technique</a></p>
             <h3>Structure</h3>
             <p><a href="/documents/Certificat-CE-TRIPODE.pdf" download target="_blank">Télécharger le certificat CE</a></p>
+            <galery-inline :items="gallery"></galery-inline>
         </div>
     </section>
 </template>
+
+
+
+<script>
+import Division from '~/components/Division.vue'
+import GaleryInline from '~/components/GalleryInline.vue'
+
+export default {
+  components: {
+    Division,
+    GaleryInline
+  },
+  data:() => {
+    return{
+      gallery: [
+        'photos/info-pratiques/portique/emilie-sornay-infopratiques-portique-1.jpg',
+        'photos/info-pratiques/portique/emilie-sornay-infopratiques-portique-2.jpg',
+        'photos/info-pratiques/portique/emilie-sornay-infopratiques-portique-3.jpg',
+        'photos/info-pratiques/portique/emilie-sornay-infopratiques-portique-4.jpg',
+        'photos/info-pratiques/portique/emilie-sornay-infopratiques-portique-5.jpg'
+      ]
+    }
+  }
+}
+</script>
+
 
 <style lang="stylus" scoped>
 section.main{
